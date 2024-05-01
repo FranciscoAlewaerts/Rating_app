@@ -29,11 +29,14 @@
                 <input type="radio" id="starhalf" name="rating" onclick="comment()" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
         </div>
-        <form id="commentForm">
+        <div class="form" id="commentForm">
+        <form >
             <label>Ayudanos a mejorar. Dejanos tu comentario</label>
             <textarea rows="3"></textarea>
-            <button type="submit">ENVIAR</button>
         </form>
+        <button type="submit" onclick="enviar()">ENVIAR</button>
+        </div>
+        <h3 id="message"></h3>
     </main>
     <footer>
         <img src="media/logo_G.png" alt="" class="logo">

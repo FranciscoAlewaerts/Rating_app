@@ -30,11 +30,14 @@ p, h3{
 .logo{
   width: 30%;
   border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer{
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin-bottom: 10%;
 }
@@ -61,8 +64,10 @@ form{
 }
 textarea{
   margin-top: 10px;
+  border:1px solid #d9ba93;
 }
 button{
+width: 111px;
 background-color:#d9ba93 ;
 padding: 10px 20px;
 border: none;

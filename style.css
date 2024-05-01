@@ -23,18 +23,17 @@ p, h3{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: rgb(164, 87, 59);
+    color: #d9ba93;
     font-size: 100%;
     font-weight: bold;
 }
 .logo{
-  width: 50%;
+  width: 30%;
+  border-radius: 10%;
 }
 footer{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   position: absolute;
   bottom: 0;
   margin-bottom: 10%;
@@ -79,9 +78,9 @@ h1 { font-size: 1.5em; margin: 10px; }
 
 .rating > input:checked ~ label, /* show gold star when clicked */
 .rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: rgb(164, 87, 59);  } /* hover previous stars in list */
+.rating:not(:checked) > label:hover ~ label { color: #e4ceb4;  } /* hover previous stars in list */
 
 .rating > input:checked + label:hover, /* hover current star when changing rating */
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: rgb(164, 87, 59);  } 
+.rating > input:checked ~ label:hover ~ label { color: #e4ceb4;  } 

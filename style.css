@@ -11,7 +11,7 @@ body{
   
 }
 main{
-  margin-top: 60%;
+  margin-top: 50%;
 }
 .estrellas{
     display: flex;
@@ -40,6 +40,32 @@ footer{
 }
 p{
   margin: 0%;
+}
+label{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #d9ba93;
+  font-weight: bold;
+}
+form{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin-top: 20px;
+}
+textarea{
+  margin-top: 10px;
+}
+button{
+background-color:#d9ba93 ;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+color: white;
+font-weight: bold;
+
 }
 
 /* STYLE RATING STARS */

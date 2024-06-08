@@ -112,7 +112,7 @@ h1 { font-size: 1.5em; margin: 10px; }
  float: right; 
 }
 
-/***** CSS Magic to Highlight Stars on Hover *****/
+
 
 .rating > input:checked ~ label, /* show gold star when clicked */
 .rating:not(:checked) > label:hover, /* hover current star */
@@ -122,3 +122,13 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #e4ceb4;  } 
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo{
+      width: 30%;
+      border-radius: 10%;
+    }
+  
+}
